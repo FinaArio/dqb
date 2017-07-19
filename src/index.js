@@ -20,7 +20,7 @@ ReactDOM.render(
     <Provider store ={store}>
         <Router history={history}>
             <Route component = {Layout}>
-                <Route path = '#' component = {Phones}>
+                <Route path = '#/' component = {Phones}>
                 </Route>
             </Route>
         </Router>
