@@ -21,6 +21,7 @@ ReactDOM.render(
         <Router history={history}>
             <Route component = {Layout}>
                 <Route path = '#/' component = {Phones}>
+                         <div>tttrg</div>
                 </Route>
             </Route>
         </Router>
